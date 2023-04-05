@@ -33,7 +33,7 @@ public class StudentModel {
 	private Date dateOfBirth;
 	
 	@Enumerated(EnumType.STRING)
-	@Column(name="gender",columnDefinition ="enum('M','f','o')",nullable=false)
+	@Column(name="gender",columnDefinition ="enum('M','F','O')",nullable=false)
 	private GenderEnum gender;
 
 	@Column(name = "status",nullable = true)
